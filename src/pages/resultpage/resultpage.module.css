@@ -18,3 +18,20 @@
   height: 340px;
   object-fit: cover;
 }
+
+.resultInfo {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.resultInfo h1 {
+  text-align: center;
+}
+.result {
+  text-align: center;
+  font-size: 22px;
+  margin: 25px 0 35px 0;
+}
+.resultInfo p:last-child {
+  text-align: justify;
+}
