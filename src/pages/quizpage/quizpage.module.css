@@ -1,0 +1,89 @@
+.quizbanner {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.header,
+.entrygrid,
+.thirdclues {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header p:first-child {
+  align-self: flex-start;
+}
+
+.header h1 {
+  align-self: center;
+  text-align: center;
+  font-size: 38px;
+}
+
+.header p:last-child {
+  align-self: flex-end;
+  justify-self: end;
+}
+
+.header p {
+  font-size: 18px;
+  width: 150px;
+}
+
+.entrygrid form {
+  align-self: flex-start;
+}
+
+.entrygrid p {
+  align-self: flex-end;
+  margin-top: 25px;
+  justify-self: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input:first-child {
+  height: 35px;
+  width: 100%;
+  border: 2px solid #793601;
+  color: #793601;
+}
+
+.form input:last-child {
+  display: block;
+  margin: 10px auto;
+  height: 30px;
+  width: 150px;
+  background-color: #793601;
+  color: white;
+}
+
+.form input:last-child:hover {
+  background-color: white;
+  border: 2px solid #793601;
+  color: #793601;
+  cursor: pointer;
+}
+
+.thirdclues {
+  margin-top: 45px;
+}
+
+.thirdclues p {
+  justify-self: flex-end;
+}
+
+.thirdclues p:last-child {
+  align-self: flex-end;
+  margin-top: 75px;
+}
+
+.bottomclues {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: start;
+}
